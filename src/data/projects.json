@@ -1,0 +1,98 @@
+[
+  {
+    "id": "1",
+    "title": "PENTESTING AUTOMATISÉ",
+    "category": "SECURITY_AUDIT", 
+    "description": "Plateforme d'automatisation des tests d'intrusion avec reconnaissance, exploitation et reporting automatique. Intègre NMAP, Metasploit et outils personnalisés.",
+    "technologies": ["Python", "Metasploit", "NMAP", "Docker", "PostgreSQL"],
+    "image": "/project-pentest.jpg",
+    "status": "DÉPLOYÉ",
+    "year": "2024",
+    "highlights": [
+      "Réduction de 70% du temps d'audit",
+      "Détection automatique de 200+ vulnérabilités",
+      "Rapports PDF personnalisés",
+      "Interface web sécurisée"
+    ]
+  },
+  {
+    "id": "2", 
+    "title": "CYBER THREAT INTELLIGENCE",
+    "category": "THREAT_ANALYSIS",
+    "description": "Système de veille et d'analyse des menaces cybernétiques en temps réel. Collecte et corrèle les données de multiples sources pour alertes précoces.",
+    "technologies": ["ELK Stack", "Python", "MISP", "YARA", "TensorFlow"],
+    "image": "/project-threat-intel.jpg",
+    "status": "EN PRODUCTION",
+    "year": "2024",
+    "highlights": [
+      "Analyse de 10M+ d'événements/jour",
+      "IA pour détection d'anomalies", 
+      "Intégration MISP/STIX",
+      "Alertes temps réel"
+    ]
+  },
+  {
+    "id": "3",
+    "title": "SECURE CODE ANALYZER",
+    "category": "DEV_SECURITY",
+    "description": "Outil d'analyse statique de code pour détecter les vulnérabilités de sécurité. Support multi-langages avec règles OWASP et personnalisées.",
+    "technologies": ["Java", "SonarQube", "Jenkins", "Docker", "React"],
+    "image": "/project-code-analyzer.jpg", 
+    "status": "BETA",
+    "year": "2023",
+    "highlights": [
+      "Support 15+ langages de programmation",
+      "Intégration CI/CD",
+      "Règles OWASP Top 10",
+      "Dashboard interactif"
+    ]
+  },
+  {
+    "id": "4",
+    "title": "INCIDENT RESPONSE PLATFORM",
+    "category": "INCIDENT_MGMT",
+    "description": "Plateforme centralisée de gestion des incidents de sécurité avec orchestration automatisée et playbooks personnalisables.",
+    "technologies": ["React", "Node.js", "MongoDB", "Redis", "Socket.io"],
+    "image": "/project-incident-response.jpg",
+    "status": "DÉVELOPPEMENT", 
+    "year": "2024",
+    "highlights": [
+      "Orchestration automatisée",
+      "Playbooks SOAR",
+      "Timeline forensique",
+      "Collaboration temps réel"
+    ]
+  },
+  {
+    "id": "5",
+    "title": "BLOCKCHAIN SECURITY AUDIT",
+    "category": "BLOCKCHAIN",
+    "description": "Framework d'audit de sécurité pour smart contracts et applications DeFi. Détection automatique des vulnérabilités critiques.",
+    "technologies": ["Solidity", "Web3.js", "Truffle", "Mythril", "Slither"],
+    "image": "/project-blockchain-audit.jpg",
+    "status": "PROTOTYPE",
+    "year": "2023", 
+    "highlights": [
+      "Audit automatisé smart contracts",
+      "Détection reentrancy attacks",
+      "Analyse flux de tokens",
+      "Rapports conformité"
+    ]
+  },
+  {
+    "id": "6",
+    "title": "CYBER DEFENSE SIMULATOR",
+    "category": "TRAINING",
+    "description": "Simulateur d'attaques cybernétiques pour formation des équipes SOC. Environnements virtualisés avec scénarios réalistes.",
+    "technologies": ["VMware", "Ansible", "Python", "Kali Linux", "SIEM"],
+    "image": "/project-cyber-simulator.jpg",
+    "status": "PILOTE",
+    "year": "2024",
+    "highlights": [
+      "50+ scénarios d'attaque",
+      "Environnements isolés",
+      "Scoring automatisé",
+      "Métriques de performance"
+    ]
+  }
+]

@@ -52,16 +52,31 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
-				sidebar: {
-					DEFAULT: 'hsl(var(--sidebar-background))',
-					foreground: 'hsl(var(--sidebar-foreground))',
-					primary: 'hsl(var(--sidebar-primary))',
-					'primary-foreground': 'hsl(var(--sidebar-primary-foreground))',
-					accent: 'hsl(var(--sidebar-accent))',
-					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
-					border: 'hsl(var(--sidebar-border))',
-					ring: 'hsl(var(--sidebar-ring))'
+				cyber: {
+					DEFAULT: 'hsl(var(--primary))',
+					blue: 'hsl(var(--secondary))',
+					grid: 'hsl(var(--cyber-grid))',
+					glow: 'hsl(var(--cyber-glow))',
+					'blue-glow': 'hsl(var(--cyber-blue-glow))'
+				},
+				glass: {
+					bg: 'var(--glass-bg)',
+					border: 'hsl(var(--glass-border))'
 				}
+			},
+			fontFamily: {
+				cyber: 'var(--font-cyber)',
+				code: 'var(--font-code)'
+			},
+			backgroundImage: {
+				'gradient-cyber': 'var(--gradient-cyber)',
+				'gradient-dark': 'var(--gradient-dark)',
+				'gradient-glass': 'var(--gradient-glass)'
+			},
+			boxShadow: {
+				'cyber': 'var(--shadow-cyber)',
+				'cyber-blue': 'var(--shadow-blue)',
+				'glass': 'var(--shadow-glass)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
@@ -84,11 +99,49 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'cyber-float': {
+					'0%, 100%': {
+						transform: 'translateY(0px) rotateY(0deg)'
+					},
+					'50%': {
+						transform: 'translateY(-10px) rotateY(180deg)'
+					}
+				},
+				'cyber-pulse': {
+					'0%, 100%': {
+						opacity: '1',
+						transform: 'scale(1)'
+					},
+					'50%': {
+						opacity: '0.7',
+						transform: 'scale(1.05)'
+					}
+				},
+				'matrix-rain': {
+					'0%': {
+						transform: 'translateY(-100vh)'
+					},
+					'100%': {
+						transform: 'translateY(100vh)'
+					}
+				},
+				'cyber-scan': {
+					'0%': {
+						transform: 'translateX(-100%)'
+					},
+					'100%': {
+						transform: 'translateX(100%)'
+					}
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'cyber-float': 'cyber-float 6s ease-in-out infinite',
+				'cyber-pulse': 'cyber-pulse 2s ease-in-out infinite',
+				'matrix-rain': 'matrix-rain 3s linear infinite',
+				'cyber-scan': 'cyber-scan 2s ease-in-out infinite'
 			}
 		}
 	},
